@@ -1,1 +1,1 @@
-console.log('QuickStart - nothing works unless you do');
+console.log("QuickStart - nothing works unless you do");
