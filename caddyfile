@@ -1,0 +1,6 @@
+localhost:2020 {
+  bind {$ADDRESS}
+  root /Users/patrickbower/Sites/quickstart
+  gzip
+  tls self_signed
+}
