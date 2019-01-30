@@ -22,7 +22,9 @@ Currently this thinking and setup is:
 ## To Run
 
 **HTTPS via Caddy on the command-line**
+
 With Caddy installed, run `caddy` within project folder.
 
 **HTTP on the command-line**
+
 Run `php -S 0.0.0.0:1234` within project folder.
