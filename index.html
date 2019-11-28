@@ -1,53 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <title>Quickstart</title>
-    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- <link
-      rel="stylesheet"
-      href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
-    /> -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico"/>
     <link
       href="https://fonts.googleapis.com/css?family=Lato"
       rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/normalize.min.css" />
-    <link rel="stylesheet" href="./assets/milligram.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="scripts.js" charset="utf-8"></script>
+/>
+    <link rel="stylesheet" href="./assets/normalize.min.css"/>
+    <link rel="stylesheet" href="./assets/milligram.min.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+
+    <script src="scripts.js" type="module"></script>
+    <script src="example.js" type="module"></script>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="column">
-          <h1>QuickStart</h1>
-          <hr />
-        </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <ul>
-            <li>
-              Default CSS from Normalise and
-              <a href="https://milligram.io">Milligram</a>
-            </li>
-            <li>Custom CSS in <b>./styles.css</b></li>
-            <li>Custom JavaScript in <b>./scripts</b></li>
-            <li>
-              Pattern for
-              <a
-                href="https://pb-journal.netlify.com/article#native-es-modules-5c388b71e60dff2d5d4689e6"
-                >native modular ES6</a
-              >
-            </li>
-          </ul>
-          <hr />
-        </div>
-      </div>
-      <div class="row">
-        <div class="column"><h4>Nothing works unless you do</h4></div>
-      </div>
-    </div>
+    <h1 id="flasher">Flasher</h1>
+    <a class="button flash-btn" href="#flasher">Flash bastard</a>
   </body>
 </html>

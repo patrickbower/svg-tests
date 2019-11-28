@@ -1,1 +1,3 @@
-console.log("QuickStart - nothing works unless you do");
+import example from './example.js';
+const Example = new example();
+Example.method();

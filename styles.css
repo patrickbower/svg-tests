@@ -10,3 +10,9 @@ body {
   background-color: var(--main-bg-color);
   padding: 20px;
 }
+
+#flasher {
+  padding: 0.5em 1em;
+  color: var(--main-bg-color);
+  background: #fecb00;
+}
